@@ -1,0 +1,16 @@
+# Fisheye8K YOLOv8 Dataset Configuration
+# Specialized for fisheye distortion handling
+
+path: /kaggle/input/fisheye8k/Fisheye8K
+train: /kaggle/input/fisheye8k/Fisheye8K/train/images
+val: /kaggle/input/fisheye8k/Fisheye8K/test/images
+test: /kaggle/input/fisheye8k/Fisheye8K/test/images  # Optional if using separate test set
+
+# Class definitions (5 categories)
+nc: 5
+names:
+  0: car
+  1: bus
+  2: truck
+  3: bike
+  4: pedestrian
